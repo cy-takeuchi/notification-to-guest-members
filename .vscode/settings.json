@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "liveServer.settings.https": {
+    "enable": true,
+    "cert": "/home/codespace/.localhost+2.pem",
+    "key": "/home/codespace/.localhost+2-key.pem",
+    "passphrase": ""
+  }
+}

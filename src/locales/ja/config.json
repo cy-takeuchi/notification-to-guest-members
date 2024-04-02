@@ -1,0 +1,23 @@
+{
+  "buttonSave": {
+    "label": "保存する"
+  },
+  "selectField": {
+    "title": "フィールドを選択してください。"
+  },
+  "selectGuestSpace": {
+    "label": "ゲストスペースURL"
+  },
+  "selectMention": {
+    "label": "メンション"
+  },
+  "selectView": {
+    "title": "機能を利用する一覧を選択してください。"
+  },
+  "error": {
+    "fetchFields": "フィールドの取得に失敗しました。",
+    "fetchViews": "ビューの取得に失敗しました。",
+    "setPluginConfig": "プラグイン設定の保存に失敗しました。",
+    "unexpected": "予期しないエラーが発生しました。"
+  }
+}

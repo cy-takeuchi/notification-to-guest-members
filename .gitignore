@@ -1,0 +1,9 @@
+node_modules
+!.gitkeep
+renovate.json
+.DS_Store
+dist
+plugin/js
+
+# Ignore .env.production, .env.development files
+.env*

@@ -1,0 +1,20 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  # プラグインでは不要
+  # build-artifact-for-development:
+  #   uses: cy-cypn/release-actions/.github/workflows/build-artifact-for-development.yml@main
+  #   secrets:
+  #     dotenv-dev: ${{ secrets.DOTENV_DEV }} #認証情報が必要ないなら設定しなくてもOK
+  release:
+    uses: cy-cypn/release-actions/.github/workflows/release.yml@main
+    secrets:
+      app-id: ${{ secrets.RELEASE_ACTION_APP_ID }}
+      private-key: ${{ secrets.RELEASE_ACTION_PRIVATE_KEY }}
+      dotenv-prod: ${{ secrets.DOTENV_PROD }} #認証情報が必要ないなら設定しなくてもOK

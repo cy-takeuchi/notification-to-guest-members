@@ -1,0 +1,39 @@
+{
+  "dialogNotification": {
+    "title": "Bulk Notification to Guests",
+    "gettingDestinations": "Fetching destinations...",
+    "zeroDestinations": "No destinations available.",
+    "postingMessage": "{{count}} out of {{total}} notifications completed.",
+    "postedMessage": "{{total}} notifications completed."
+  },
+  "textNotificationContent": {
+    "title": "Send bulk notification to guests ({{count}} items). Please enter a message."
+  },
+  "buttonCloseDialog": {
+    "label": "Close"
+  },
+  "buttonOpenDialog": {
+    "label": "Start Bulk Notification",
+    "zeroDestinations": "No destinations available."
+  },
+  "buttonPostMessage": {
+    "label": "Notify"
+  },
+  "tableResult": {
+    "header": {
+      "app": "App",
+      "guestSpace": "Guest Space",
+      "result": "Result",
+      "errorMessage": "Error Details"
+    },
+    "body": {
+      "success": "Success",
+      "error": "Error"
+    }
+  },
+  "error": {
+    "fetchDestinations": "Failed to fetch destinations.",
+    "postMessage": "Failed to post message.",
+    "na": "Guest Space URL or Mention is not set."
+  }
+}

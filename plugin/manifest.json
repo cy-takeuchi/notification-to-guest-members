@@ -1,0 +1,25 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "type": "APP",
+  "desktop": {
+    "js": ["js/desktop.js"]
+  },
+  "icon": "image/icon.png",
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/config.js"]
+  },
+  "name": {
+    "en": "一括通知 to ゲストメンバー",
+    "ja": "一括通知 to ゲストメンバー"
+  },
+  "description": {
+    "en": "複数ゲストスペース内のゲストメンバーにスレッドコメントで通知します。",
+    "ja": "複数ゲストスペース内のゲストメンバーにスレッドコメントで通知します。"
+  },
+  "homepage_url": {
+    "en": "https://github.com/cy-takeuchi/notification-to-guest-members",
+    "ja": "https://github.com/cy-takeuchi/notification-to-guest-members"
+  }
+}

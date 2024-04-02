@@ -1,0 +1,39 @@
+{
+  "dialogNotification": {
+    "title": "ゲストへの一括通知",
+    "gettingDestinations": "通知先を取得中...",
+    "zeroDestinations": "通知先がありません。",
+    "postingMessage": "{{count}} / {{total}} 件の通知が完了しました。",
+    "postedMessage": "{{total}} 件の通知が完了しました。"
+  },
+  "textNotificationContent": {
+    "title": "ゲストに一括で通知します（{{count}} 件）。メッセージを入力してください。"
+  },
+  "buttonCloseDialog": {
+    "label": "閉じる"
+  },
+  "buttonOpenDialog": {
+    "label": "一括通知を開始する",
+    "zeroDestinations": "通知先がありません。"
+  },
+  "buttonPostMessage": {
+    "label": "通知する"
+  },
+  "tableResult": {
+    "header": {
+      "app": "アプリ",
+      "guestSpace": "ゲストスペース",
+      "result": "結果",
+      "errorMessage": "エラー詳細"
+    },
+    "body": {
+      "success": "成功",
+      "error": "エラー"
+    }
+  },
+  "error": {
+    "fetchDestinations": "通知先の取得に失敗しました。",
+    "postMessage": "通知に失敗しました。",
+    "na": "ゲストスペース URL もしくはメンションが設定されていません。"
+  }
+}

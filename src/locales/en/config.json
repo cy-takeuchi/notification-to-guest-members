@@ -1,0 +1,23 @@
+{
+  "buttonSave": {
+    "label": "Save"
+  },
+  "selectField": {
+    "title": "Please select a field."
+  },
+  "selectGuestSpace": {
+    "label": "Guest Space URL"
+  },
+  "selectMention": {
+    "label": "Mention"
+  },
+  "selectView": {
+    "title": "Please select a list of functions to use."
+  },
+  "error": {
+    "fetchFields": "Failed to fetch fields.",
+    "fetchViews": "Failed to fetch views.",
+    "setPluginConfig": "Failed to save plugin configuration.",
+    "unexpected": "An unexpected error occurred."
+  }
+}

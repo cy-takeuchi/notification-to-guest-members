@@ -1,0 +1,18 @@
+name: License Check
+
+on:
+  push:
+    branches:
+      - "master"
+      - "develop**"
+  pull_request:
+    branches:
+      - "master"
+      - "develop**"
+
+jobs:
+  call-license-check-workflow:
+    uses: cy-cypn/license-manager-settings/.github/workflows/license-check.yml@main
+    secrets:
+      app-id: ${{ secrets.LICENSE_MANAGER_APP_ID }}
+      private-key: ${{ secrets.LICENSE_MANAGER_PRIVATE_KEY }}
