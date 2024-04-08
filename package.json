@@ -2,7 +2,7 @@
   "name": "notification-to-guest-members",
   "description": "kintone plugin to notification guest members.",
   "version": "1.0.0",
-  "author": "cybozu",
+  "author": "cy-takeuchi",
   "license": "UNLICENSED",
   "engines": {
     "node": ">=20"
